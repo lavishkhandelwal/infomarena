@@ -1,0 +1,41 @@
+/*******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+    .panel-group .panel {
+        box-shadow: none;
+        width: 20%;
+        border: none;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        border: none;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        background-color: white;
+        text-decoration: none;
+		color:black;
+    }
+
+    .more-less {
+        float: right;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border: none;
+    }
+
+    .type {
+        list-style-type: none;
+        text-indent: 20px;
+        line-height: 25px;
+    }
